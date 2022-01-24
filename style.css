@@ -24,7 +24,10 @@ body{
     border-radius: 30px;
 }
 .margin{
-    margin-top: 70px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .fa-check{
     color: blue;
@@ -53,4 +56,9 @@ body{
     color: #2980b9;
     background-color: #2980b9;
     padding: 5px 5px 0 5px;
+}
+@media only screen and (max-width:576px){
+    .images{
+        width: 324px;
+    }
 }
